@@ -1,4 +1,4 @@
-# DDD Modelagem Tática e Patterns
+# Clean Architecture
 
 Instale as dependências:
 ```
@@ -8,4 +8,4 @@ npm i
 Rode os testes
 ```
 npm test
-```# challenge-clean-arch
+```
