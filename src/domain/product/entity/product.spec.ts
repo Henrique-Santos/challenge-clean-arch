@@ -20,6 +20,12 @@ describe('Product unit tests', () => {
         }).toThrow('product: Price must be greater than 0')
     })
 
+    it('should throw erro when id and name is empty', () => {
+        expect(() => {
+            new Product('', '', 100)
+        }).toThrow('product: Id is required,product: Name is required')
+    })
+
     it('should throw erro when id, name is empty and price is less then 0', () => {
         expect(() => {
             new Product('', '', -1)
